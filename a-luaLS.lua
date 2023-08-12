@@ -1,0 +1,22 @@
+---@meta
+---@class challenge
+---@field init function
+---@field challenge function
+---@field criteria function
+---@field level_init function?
+---@field on_interact function?
+---@field before_set_mario_action function?
+---@field speedrun_frame_limit integer?
+---@field hud_render function?
+---@field index string
+---@field medal Medal
+---@field star integer
+---@field name string
+---@field description string
+---@field modifiers Modifier[]
+
+---@class Menu
+---@field input function
+---@field on_create function?
+---@field render function
+---@field on_clear function?
