@@ -1,5 +1,5 @@
 -- name: Medal Challenges
--- description: Collect 20 varied medals across various stages
+-- description: Collect 20 varied medals across various stages Author: andre8739
 
 local function obj_is_star(o)
     return (obj_has_model_extended(o,E_MODEL_STAR) ~= 0 or obj_has_model_extended(o,E_MODEL_TRANSPARENT_STAR) ~= 0)
