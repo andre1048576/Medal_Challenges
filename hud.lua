@@ -26,7 +26,7 @@ end
 local selected_challenge_index = 1
 
 ---@type string[]
-local challenge_ordering = {"VN1","VN4","VN11","VN13","VN3","VN12","VN8","VN7","VN0","VN2","VN15","VN10","VN6","VN5","VN9","VN16","VN17","VN19","VN18","VN14"}
+challenge_ordering = {"VN1","VN4","VN11","VN13","VN3","VN12","VN8","VN7","VN0","VN2","VN15","VN10","VN6","VN5","VN9","VN16","VN17","VN19","VN18","VN14"}
 --CHALLENGE ELEMENT
 
 local description_height_min = 0
